@@ -43,7 +43,7 @@ if __name__ == "__main__":
     for p in [data_path_lab,data_path_field]:
         data = data_preprosessing(p)
         res = data_time_slice(data,'2017-01-01','2021-12-31')
-        print (res[''])
+
         save_file(res,save_path,p.split('/')[-1])
 
     print(0)
